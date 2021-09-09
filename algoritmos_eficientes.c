@@ -151,7 +151,7 @@ void mergeSort(int A[],int l,int r)
     merge(A, l, m, r);
 }
 
-// Função partição: realiza o particionamento do Quicksort
+// FunÃ§Ã£o partiÃ§Ã£o: realiza o particionamento do Quicksort
 int Particao(TipoItem *A, int p, int r)
 {
     TipoItem x;
@@ -176,7 +176,7 @@ int Particao(TipoItem *A, int p, int r)
     return i + 1;
 }
 
-// Método Quicksort: função recursiva que divida o vetor em duas metades
+// MÃ©todo Quicksort: funÃ§Ã£o recursiva que divida o vetor em duas metades
 void Quicksort(TipoItem *A, int p, int r)
 {
     if(p < r)
